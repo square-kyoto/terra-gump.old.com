@@ -1,0 +1,1 @@
+type CustomColorNames = 'terraRed' | 'terraYellow';
