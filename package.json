@@ -1,0 +1,54 @@
+{
+  "name": "terra-gump.com",
+  "description": "「ワインバー・テラ」「PUB GUMP」ウェブサイト",
+  "version": "1.0.0",
+  "homepage": "https://terra-gump.com",
+  "author": {
+    "name": "Takashi Makimoto",
+    "email": "mackie@beehive-dev.com",
+    "url": "https://www.beehive-dev.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/square-kyoto/terra-gump.com"
+  },
+  "bugs": {
+    "url": "https://github.com/square-kyoto/terra-gump.com/issues",
+    "email": "mackie@beehive-dev.com"
+  },
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.8.3",
+    "@mantine/hooks": "^5.8.3",
+    "@mantine/next": "^5.8.3",
+    "next": "^13.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-next": "^13.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "packageManager": "yarn@3.3.0"
+}
