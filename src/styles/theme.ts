@@ -5,6 +5,7 @@ import globalStyles from './globalStyles';
 const theme: MantineThemeOverride = {
   colorScheme: 'light',
   colors: colors,
+  fontFamily: ['"M PLUS 2"', 'sans-serif'].join(','),
   globalStyles: globalStyles,
   primaryColor: 'terraRed',
 };

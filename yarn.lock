@@ -294,6 +294,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/m-plus-2@npm:^4.5.11":
+  version: 4.5.11
+  resolution: "@fontsource/m-plus-2@npm:4.5.11"
+  checksum: 9474c391f9e64a0ad8fa00f0d2f340bdace147c05db0bebb88b56f42239f08cb97dd863e671fa6a5f2feb9f9c9311bcf6ea1fcaa114a4a0587e8377aff5766c2
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.6":
   version: 0.11.7
   resolution: "@humanwhocodes/config-array@npm:0.11.7"
@@ -3551,6 +3558,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.10.5
     "@emotion/server": ^11.10.0
+    "@fontsource/m-plus-2": ^4.5.11
     "@mantine/core": ^5.8.3
     "@mantine/hooks": ^5.8.3
     "@mantine/next": ^5.8.3
