@@ -1,16 +1,6 @@
 import { Box, createStyles, Flex, Text } from '@mantine/core';
-import ResponsiveImage from 'components/ResponsiveImage';
-
-const choiceImage = {
-  height: 635,
-  src: '/menu/choice.png',
-  width: 6552,
-};
-const pizzaImage = {
-  height: 630,
-  src: '/menu/pizza.png',
-  width: 652,
-};
+import ChoiceImage from './ChoiceImage';
+import PizzaImage from './PizzaImage';
 
 const useStyles = createStyles((theme) => ({
   choiceImage: {
@@ -72,12 +62,7 @@ const Introduction = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Box className={classes.inner}>
           <Box className={classes.choiceImage}>
-            <ResponsiveImage
-              alt="チョイス！！"
-              height={choiceImage.height}
-              src={choiceImage.src}
-              width={choiceImage.width}
-            />
+            <ChoiceImage />
           </Box>
           <Box className={classes.messageBox}>
             <Text className={classes.message}>
@@ -93,12 +78,7 @@ const Introduction = () => {
         </Box>
       </Box>
       <Box className={classes.pizzaImage}>
-        <ResponsiveImage
-          alt="ピザの直径は 25cm"
-          height={pizzaImage.height}
-          src={pizzaImage.src}
-          width={pizzaImage.width}
-        />
+        <PizzaImage />
       </Box>
     </Flex>
   );
