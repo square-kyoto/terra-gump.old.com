@@ -1,0 +1,252 @@
+const palette = {
+  bbq: '#910000',
+  purukogi: '#FDD000',
+  shio: '#00A1E9',
+  tomato: '#E60013',
+  wafu: '#E4007F',
+  whitesauce: '#DE9D4C',
+};
+
+const pizzaMenu: Array<PizzaMenu> = [
+  {
+    id: 1,
+    ingredients: ['トマトソース', 'モッツァレラ', '生バジル', 'オリーブオイル'],
+    name: 'マルゲリータ',
+    price: 1280,
+    price_include_tax: 1382,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary: 'イタリア伝統モッツァレラと生バジルのハーモニー！',
+  },
+  {
+    id: 2,
+    ingredients: ['トマトソース', 'チーズ', 'ペパロニ'],
+    name: 'ペパロニピザ',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      'ピザに欠かせないトッピングのひとつ「ペパロニ」不動の人気となることまちがいなし！！',
+  },
+  {
+    id: 3,
+    ingredients: [
+      'トマトソース',
+      'チーズ',
+      'アンチョビ',
+      'オリーブ',
+      'オレガノ',
+      'オリーブオイル',
+    ],
+    name: 'アンチョビとオリーブのイタリアーナ',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary: 'アンチョビと2種類のオリーブを使った大人のピザ！！ ワインにピッタリ！！',
+  },
+  {
+    id: 4,
+    ingredients: [
+      'トマトソース',
+      'チーズ',
+      'てりキチン',
+      '玉ねぎ',
+      'コーン',
+      'マヨネーズ',
+      'のり',
+    ],
+    name: 'てりやきマヨチキン',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      '甘辛く味付けしたとり肉にチーズとマヨネーズをトッピング！！ おいしくないわけがない！！',
+  },
+  {
+    id: 9,
+    ingredients: ['モッツァレラ', 'MIXチーズ', 'カマンベール', 'パルメジャーノ'],
+    name: 'I LOVE チーズ ♥',
+    price: 1780,
+    price_include_tax: 19222,
+    sauce: null,
+    summary: '4種類以上のチーズをふんだんに使ったチーズ好きのためのピザです！！',
+  },
+  {
+    id: 10,
+    ingredients: ['チーズ', 'ブルーチーズ', 'くるみ', 'はちみつ'],
+    name: 'ブルーチーズとはちみつのピザ',
+    price: 1780,
+    price_include_tax: 1922,
+    sauce: null,
+    summary: 'ブルーチーズと相性のよいはちみつに、きざんだくるみをちりばめたおつまみピザ',
+  },
+  {
+    id: 11,
+    ingredients: ['トマトソース', 'チーズ', '生ハム', '玉子'],
+    name: '生ハムのビスマルク',
+    price: 1780,
+    price_include_tax: 1922,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      'ドイツを統一するために尽力した宰相ビスマルクが卵を愛したことからこの名前が！！ とろーり半熟卵。最後に生ハムをトッピング！！',
+  },
+  {
+    id: 12,
+    ingredients: ['和風ソース', 'チーズ', '明太子', 'おもち', 'コーン', 'のり'],
+    name: '和風明太子もちチーズ',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.wafu,
+      name: '和風ソース',
+    },
+    summary:
+      'たっぷり明太子におもちをのせて！ 仕上げにのりをまぶして和風テイストに仕上げました。',
+  },
+  {
+    id: 13,
+    ingredients: ['トマトソース', 'にんにく', 'オリーブオイル'],
+    name: 'マリナーラ',
+    price: 980,
+    price_include_tax: 1058,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      'マリナーラはピザ生地にトマトソースとにんにくのとってもシンプルなピザ。アクセントにオレガノで仕上げます。',
+  },
+  {
+    id: 14,
+    ingredients: ['トマトソース', 'チーズ', 'チョリソー', 'ハラペーニョ', '玉ねぎ'],
+    name: 'メキシカンハラペーニョ',
+    price: 1580,
+    price_include_tax: 1706,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      'ハラペーニョとはメキシコ原産とする青唐辛子の一種。酢漬けにされたハラペーニョとチョリソーで Hot なピザを！!',
+  },
+  {
+    id: 17,
+    ingredients: ['トマトソース', 'モッツァレラ', '揚げなす'],
+    name: 'なすゲリータ',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.tomato,
+      name: 'トマトソース',
+    },
+    summary:
+      '定番マルゲリータのバジルの代わりにジューシーな、なすをトッピング！！ なすのうまみを感じてください！！',
+  },
+  {
+    id: 18,
+    ingredients: [
+      'ホワイトソース',
+      '玉ねぎ',
+      'チーズ',
+      'ジャガイモ',
+      'ベーコン',
+      'マヨネーズ',
+      '粒マスタード',
+    ],
+    name: 'ベーコンポテトピザ',
+    price: 1480,
+    price_include_tax: 1598,
+    sauce: {
+      color: palette.whitesauce,
+      name: 'ホワイトソース',
+    },
+    summary:
+      'ホクホクポテトにベーコンのうまみがしみこんだ満足感抜群のピザです！！ シンプルに美味しい！！',
+  },
+  {
+    id: 19,
+    ingredients: ['ホワイトソース', 'チーズ', 'エビ', 'ズッキーニ', 'レモンソース', 'レモン'],
+    name: 'エビとズッキーニのレモンピザ',
+    price: 1680,
+    price_include_tax: 1814,
+    sauce: {
+      color: palette.whitesauce,
+      name: 'ホワイトソース',
+    },
+    summary:
+      'プリッとしたエビとチーズをピザにしました。皮まで食べられるレモンがピザをさわやかに演出！！',
+  },
+  {
+    id: 20,
+    ingredients: ['プルコギソース', 'チーズ', '玉ねぎ', '牛肉', 'にら', 'マヨネーズ'],
+    name: '韓国プルコギピザ',
+    price: 1880,
+    price_include_tax: 2030,
+    sauce: {
+      color: palette.purukogi,
+      name: 'プルコギソース',
+    },
+    summary:
+      'シンプルなプルコギをピザにトッピング！ 甘辛に味付けした牛肉とチーズは相性ピッタリ！！',
+  },
+  {
+    id: 25,
+    ingredients: [
+      '豚トロ',
+      'チーズ',
+      'バーベキューソース',
+      'コーン',
+      'パプリカ',
+      'にんにく',
+      'はちみつ',
+    ],
+    name: 'じゅわっとジューシー豚トロBBQピザ',
+    price: 1680,
+    price_include_tax: 1814,
+    sauce: {
+      color: palette.bbq,
+      name: 'バーベキューソース',
+    },
+    summary:
+      'コロコロした豚トロをはちみつが隠し味のバーベキューソースでピザにしました！ コーンをたっぷりのせて子供から大人まで楽しめる「気分はまさにグランピング！」なピザです！！',
+  },
+  {
+    id: 26,
+    ingredients: [
+      'エビ',
+      'イカ',
+      'アサリ',
+      'チーズ',
+      '塩ダレ',
+      'レモン',
+      '青ネギ',
+      'ごま油',
+      'にんにく',
+    ],
+    name: '九条ネギの塩シーフードBBQピザ',
+    price: 1680,
+    price_include_tax: 1814,
+    sauce: {
+      color: palette.shio,
+      name: '塩ダレ',
+    },
+    summary:
+      'エビ、イカ、アサリを塩ダレでピザにしました！ネギと国産レモンをぎゅうっと絞って食べれば浜辺でバーベキューしているよう！ さっぱりした夏のピザをぜひ！',
+  },
+];
+
+export default pizzaMenu;
