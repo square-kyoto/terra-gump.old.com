@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import { Box } from '@mantine/core';
+import ResponsiveImage from 'components/ResponsiveImage';
 
 const logoImage = {
   height: 650,
@@ -10,15 +10,10 @@ const logoImage = {
 function MenuLogo() {
   return (
     <Box sx={{ position: 'relative' }}>
-      <Image
+      <ResponsiveImage
         alt="Pizza TAKE OUT MENU"
         height={logoImage.height}
-        sizes="100vw"
         src={logoImage.src}
-        style={{
-          height: 'auto',
-          width: '100%',
-        }}
         width={logoImage.width}
       />
     </Box>

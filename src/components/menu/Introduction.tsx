@@ -1,5 +1,5 @@
 import { Box, createStyles, Flex, Text } from '@mantine/core';
-import Image from 'next/image';
+import ResponsiveImage from 'components/ResponsiveImage';
 
 const choiceImage = {
   height: 635,
@@ -72,15 +72,10 @@ const Introduction = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Box className={classes.inner}>
           <Box className={classes.choiceImage}>
-            <Image
+            <ResponsiveImage
               alt="チョイス！！"
               height={choiceImage.height}
-              sizes="100vw"
               src={choiceImage.src}
-              style={{
-                height: 'auto',
-                width: '100%',
-              }}
               width={choiceImage.width}
             />
           </Box>
@@ -98,15 +93,10 @@ const Introduction = () => {
         </Box>
       </Box>
       <Box className={classes.pizzaImage}>
-        <Image
+        <ResponsiveImage
           alt="ピザの直径は 25cm"
           height={pizzaImage.height}
-          sizes="100vw"
           src={pizzaImage.src}
-          style={{
-            height: 'auto',
-            width: '100%',
-          }}
           width={pizzaImage.width}
         />
       </Box>
