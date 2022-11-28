@@ -15,7 +15,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1280,
     price_include_tax: 1382,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary: 'イタリア伝統モッツァレラと生バジルのハーモニー！',
@@ -27,7 +28,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -47,7 +49,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary: 'アンチョビと2種類のオリーブを使った大人のピザ！！ ワインにピッタリ！！',
@@ -67,7 +70,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -98,7 +102,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1780,
     price_include_tax: 1922,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -111,7 +116,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.wafu,
+      bg: palette.wafu,
+      fg: 'white',
       name: '和風ソース',
     },
     summary:
@@ -124,7 +130,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 980,
     price_include_tax: 1058,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -137,7 +144,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1580,
     price_include_tax: 1706,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -150,7 +158,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.tomato,
+      bg: palette.tomato,
+      fg: 'white',
       name: 'トマトソース',
     },
     summary:
@@ -171,7 +180,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1480,
     price_include_tax: 1598,
     sauce: {
-      color: palette.whitesauce,
+      bg: palette.whitesauce,
+      fg: 'black',
       name: 'ホワイトソース',
     },
     summary:
@@ -184,7 +194,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1680,
     price_include_tax: 1814,
     sauce: {
-      color: palette.whitesauce,
+      bg: palette.whitesauce,
+      fg: 'black',
       name: 'ホワイトソース',
     },
     summary:
@@ -197,7 +208,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1880,
     price_include_tax: 2030,
     sauce: {
-      color: palette.purukogi,
+      bg: palette.purukogi,
+      fg: 'black',
       name: 'プルコギソース',
     },
     summary:
@@ -218,7 +230,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1680,
     price_include_tax: 1814,
     sauce: {
-      color: palette.bbq,
+      bg: palette.bbq,
+      fg: 'white',
       name: 'バーベキューソース',
     },
     summary:
@@ -241,7 +254,8 @@ const pizzaMenu: Array<PizzaMenu> = [
     price: 1680,
     price_include_tax: 1814,
     sauce: {
-      color: palette.shio,
+      bg: palette.shio,
+      fg: 'black',
       name: '塩ダレ',
     },
     summary:

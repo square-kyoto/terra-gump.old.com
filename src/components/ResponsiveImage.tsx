@@ -12,6 +12,7 @@ const ResponsiveImage = ({ src, height, width, alt }: Props) => {
     <Image
       alt={alt}
       height={height}
+      priority
       sizes="100vw"
       src={src}
       style={{
