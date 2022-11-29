@@ -1,4 +1,5 @@
 import { Box, Container, Divider, Grid } from '@mantine/core';
+import HalfAndHalf from 'components/menu/HalfAndHalf';
 import Introduction from 'components/menu/Introduction';
 import MenuLogo from 'components/menu/Logo';
 import MenuCard from 'components/menu/MenuCard';
@@ -13,6 +14,9 @@ const MenuPage = () => {
         </Box>
         <Divider color="white" mb="md" size="xl" />
         <Introduction />
+        <Box my="xl">
+          <HalfAndHalf />
+        </Box>
         <Box pb={80} pt="xl">
           <Grid>
             {pizzaMenu.map((menu) => (
