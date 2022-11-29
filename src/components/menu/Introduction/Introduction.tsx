@@ -39,7 +39,7 @@ const Introduction = () => {
   const { classes } = useStyles();
 
   return (
-    <Flex>
+    <Flex align="center">
       <Box sx={{ flexGrow: 1 }}>
         <Box className={classes.inner}>
           <Box className={classes.choiceImage}>
