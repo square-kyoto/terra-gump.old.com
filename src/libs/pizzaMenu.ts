@@ -10,6 +10,7 @@ const palette = {
 const pizzaMenu: Array<PizzaMenu> = [
   {
     id: 1,
+    image: 'margerita.jpg',
     ingredients: ['トマトソース', 'モッツァレラ', '生バジル', 'オリーブオイル'],
     name: 'マルゲリータ',
     price: 1280,
@@ -23,6 +24,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 2,
+    image: 'pepparoni.jpg',
     ingredients: ['トマトソース', 'チーズ', 'ペパロニ'],
     name: 'ペパロニピザ',
     price: 1480,
@@ -37,6 +39,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 3,
+    image: 'anchovy.jpg',
     ingredients: [
       'トマトソース',
       'チーズ',
@@ -57,6 +60,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 4,
+    image: 'teriyaki.jpg',
     ingredients: [
       'トマトソース',
       'チーズ',
@@ -79,6 +83,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 9,
+    image: 'ilovecheese.jpg',
     ingredients: ['モッツァレラ', 'MIXチーズ', 'カマンベール', 'パルメジャーノ'],
     name: 'I LOVE チーズ ♥',
     price: 1780,
@@ -88,6 +93,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 10,
+    image: 'bluecheese.jpg',
     ingredients: ['チーズ', 'ブルーチーズ', 'くるみ', 'はちみつ'],
     name: 'ブルーチーズとはちみつのピザ',
     price: 1780,
@@ -97,6 +103,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 11,
+    image: 'bismarck.jpg',
     ingredients: ['トマトソース', 'チーズ', '生ハム', '玉子'],
     name: '生ハムのビスマルク',
     price: 1780,
@@ -111,6 +118,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 12,
+    image: 'mentaiko.jpg',
     ingredients: ['和風ソース', 'チーズ', '明太子', 'おもち', 'コーン', 'のり'],
     name: '和風明太子もちチーズ',
     price: 1480,
@@ -125,6 +133,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 13,
+    image: 'marinara.jpg',
     ingredients: ['トマトソース', 'にんにく', 'オリーブオイル'],
     name: 'マリナーラ',
     price: 980,
@@ -139,6 +148,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 14,
+    image: 'jarapeno.jpg',
     ingredients: ['トマトソース', 'チーズ', 'チョリソー', 'ハラペーニョ', '玉ねぎ'],
     name: 'メキシカンハラペーニョ',
     price: 1580,
@@ -153,6 +163,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 17,
+    image: 'nasu-gerita.jpg',
     ingredients: ['トマトソース', 'モッツァレラ', '揚げなす'],
     name: 'なすゲリータ',
     price: 1480,
@@ -167,6 +178,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 18,
+    image: 'bacon-potato.jpg',
     ingredients: [
       'ホワイトソース',
       '玉ねぎ',
@@ -189,6 +201,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 19,
+    image: 'ebi-remon.jpg',
     ingredients: ['ホワイトソース', 'チーズ', 'エビ', 'ズッキーニ', 'レモンソース', 'レモン'],
     name: 'エビとズッキーニのレモンピザ',
     price: 1680,
@@ -203,6 +216,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 20,
+    image: 'bulgogi.jpg',
     ingredients: ['プルコギソース', 'チーズ', '玉ねぎ', '牛肉', 'にら', 'マヨネーズ'],
     name: '韓国プルコギピザ',
     price: 1880,
@@ -217,6 +231,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 25,
+    image: 'tontoro.jpg',
     ingredients: [
       '豚トロ',
       'チーズ',
@@ -239,6 +254,7 @@ const pizzaMenu: Array<PizzaMenu> = [
   },
   {
     id: 26,
+    image: 'kujonegi.jpg',
     ingredients: [
       'エビ',
       'イカ',
