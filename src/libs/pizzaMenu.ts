@@ -87,7 +87,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['モッツァレラ', 'MIXチーズ', 'カマンベール', 'パルメジャーノ'],
     name: 'I LOVE チーズ ♥',
     price: 1780,
-    price_include_tax: 19222,
+    price_include_tax: 1922,
     sauce: null,
     summary: '4種類以上のチーズをふんだんに使ったチーズ好きのためのピザです！！',
   },
