@@ -14,9 +14,16 @@ const Name = ({ item }: Props) => {
         <Text fw="bold" fz="lg">
           {item.name}
         </Text>
-        <Text fz="xs" sx={{ textShadow: '1px 1px #fff' }}>
-          {item.summary}
-        </Text>
+        <Box display="inline-block">
+          <Text
+            bg="rgba(255, 255, 255, 0.4)"
+            fz="xs"
+            p="xs"
+            sx={{ textShadow: '1px 1px #fff' }}
+          >
+            {item.summary}
+          </Text>
+        </Box>
       </Box>
     </Flex>
   );
