@@ -1,22 +1,16 @@
 import { Box, Container, Divider, Grid } from '@mantine/core';
-import Head from 'next/head';
 import HalfAndHalf from 'components/menu/HalfAndHalf';
 import Introduction from 'components/menu/Introduction';
 import MenuLogo from 'components/menu/Logo';
 import MenuCard from 'components/menu/MenuCard';
 import pizzaMenu from 'libs/pizzaMenu';
+import Layout from 'components/Layout';
 
 const pageTitle = 'Pizza TAKE OUT MENU';
-const siteName = 'ワインバーテラ・PUB GUMP';
-const description = '手作りの焼きたてのピザをお持ち帰り頂けます！';
 
 const MenuPage = () => {
   return (
-    <>
-      <Head>
-        <title>{`${pageTitle} / ${siteName}`}</title>
-        <meta content={description} name="description" />
-      </Head>
+    <Layout title={pageTitle}>
       <Box bg="terraRed" h="100%">
         <Container size="lg">
           <Box py="md">
@@ -38,7 +32,7 @@ const MenuPage = () => {
           </Box>
         </Container>
       </Box>
-    </>
+    </Layout>
   );
 };
 
