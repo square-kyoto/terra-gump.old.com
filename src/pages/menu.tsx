@@ -11,7 +11,7 @@ const pageTitle = 'Pizza TAKE OUT MENU';
 const MenuPage = () => {
   return (
     <Layout title={pageTitle}>
-      <Box bg="terraRed" h="100%">
+      <Box bg="terraRed">
         <Container size="lg">
           <Box py="md">
             <MenuLogo />
