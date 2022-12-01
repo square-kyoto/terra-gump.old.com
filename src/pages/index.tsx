@@ -13,7 +13,7 @@ const IndexPage = () => (
               alt="Pizza & Wine ワインバーテラ"
               height={380}
               src="/banner.jpg"
-              width={170}
+              width={1700}
             />
           </Box>
           <Box ta="center">
