@@ -4,13 +4,15 @@ import Name from './Name';
 import Ingredients from './Ingredients';
 import Price from './Price';
 
+const CARD_HEIGHT = 480;
+
 type Props = {
   item: PizzaMenu;
 };
 
 const MenuCard = ({ item }: Props) => {
   return (
-    <Paper h={450} pb="xl" pos="relative" pt="sm" px="sm">
+    <Paper h={CARD_HEIGHT} pb="xl" pos="relative" pt="sm" px="sm">
       <Box
         h="60%"
         left="10%"
