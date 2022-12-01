@@ -1,12 +1,12 @@
 import { ImageResponse } from '@vercel/og';
-import getConfig from 'next/config';
+import metadata from 'libs/metadata';
 
 export const config = {
   runtime: 'experimental-edge',
 };
 
 const handler: ImageResponse = () => {
-  const { publicRuntimeConfig } = getConfig();
+  const { deployUrl } = metadata;
 
   return new ImageResponse(
     (
@@ -25,7 +25,7 @@ const handler: ImageResponse = () => {
         <img
           alt="logo -- TeRRa"
           height="316"
-          src={`${publicRuntimeConfig.deployUrl}/static/og-logo.png`}
+          src={`${deployUrl}/static/og-logo.png`}
           width="275"
         />
       </div>
@@ -34,3 +34,4 @@ const handler: ImageResponse = () => {
 };
 
 export default handler;
+// src={`${deployUrl}/static/og-logo.png`}
