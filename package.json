@@ -27,12 +27,15 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/server": "^11.10.0",
+    "@fontsource/m-plus-2": "^4.5.11",
     "@mantine/core": "^5.8.3",
     "@mantine/hooks": "^5.8.3",
     "@mantine/next": "^5.8.3",
+    "@vercel/og": "^0.0.21",
     "next": "^13.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "shape": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
