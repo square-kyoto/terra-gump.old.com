@@ -24,9 +24,9 @@ const handler: ImageResponse = () => {
       >
         <img
           alt="logo -- TeRRa"
-          height="316"
+          height="108"
           src={`${deployUrl}/static/og-logo.png`}
-          width="275"
+          width="480"
         />
       </div>
     )
@@ -34,4 +34,3 @@ const handler: ImageResponse = () => {
 };
 
 export default handler;
-// src={`${deployUrl}/static/og-logo.png`}
