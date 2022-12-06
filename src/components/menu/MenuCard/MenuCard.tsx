@@ -4,7 +4,7 @@ import Name from './Name';
 import Ingredients from './Ingredients';
 import Price from './Price';
 
-const CARD_HEIGHT = 480;
+const CARD_HEIGHT = 544;
 
 type Props = {
   item: PizzaMenu;
