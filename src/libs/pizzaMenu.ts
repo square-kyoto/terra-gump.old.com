@@ -14,7 +14,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'モッツァレラ', '生バジル', 'オリーブオイル'],
     name: 'マルゲリータ',
     price: 1880,
-    price_include_tax: 2068,
+    price_include_tax: 2030,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -28,7 +28,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'チーズ', 'ペパロニ'],
     name: 'ペパロニピザ',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -50,7 +50,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ],
     name: 'アンチョビとオリーブのイタリアーナ',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -72,7 +72,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ],
     name: 'てりやきマヨチキン',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -87,7 +87,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['モッツァレラ', 'MIXチーズ', 'カマンベール', 'パルメジャーノ'],
     name: 'I LOVE チーズ ♥',
     price: 2480,
-    price_include_tax: 2728,
+    price_include_tax: 2678,
     sauce: null,
     summary: '4種類以上のチーズをふんだんに使ったチーズ好きのためのピザです！！',
   },
@@ -97,7 +97,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['チーズ', 'ブルーチーズ', 'くるみ', 'はちみつ'],
     name: 'ブルーチーズとはちみつのピザ',
     price: 2480,
-    price_include_tax: 2728,
+    price_include_tax: 2678,
     sauce: null,
     summary: 'ブルーチーズと相性のよいはちみつに、きざんだくるみをちりばめたおつまみピザ',
   },
@@ -107,7 +107,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'チーズ', '生ハム', '玉子'],
     name: '生ハムのビスマルク',
     price: 2480,
-    price_include_tax: 2728,
+    price_include_tax: 2678,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -122,7 +122,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['和風ソース', 'チーズ', '明太子', 'おもち', 'コーン', 'のり'],
     name: '和風明太子もちチーズ',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.wafu,
       fg: 'white',
@@ -137,7 +137,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'にんにく', 'オリーブオイル'],
     name: 'マリナーラ',
     price: 1580,
-    price_include_tax: 1738,
+    price_include_tax: 1706,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -152,7 +152,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'チーズ', 'チョリソー', 'ハラペーニョ', '玉ねぎ'],
     name: 'メキシカンハラペーニョ',
     price: 2280,
-    price_include_tax: 2508,
+    price_include_tax: 2462,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -167,7 +167,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['トマトソース', 'モッツァレラ', '揚げなす'],
     name: 'なすゲリータ',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.tomato,
       fg: 'white',
@@ -190,7 +190,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ],
     name: 'ベーコンポテトピザ',
     price: 2180,
-    price_include_tax: 2398,
+    price_include_tax: 2354,
     sauce: {
       bg: palette.whitesauce,
       fg: 'black',
@@ -205,7 +205,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['ホワイトソース', 'チーズ', 'エビ', 'ズッキーニ', 'レモンソース', 'レモン'],
     name: 'エビとズッキーニのレモンピザ',
     price: 2280,
-    price_include_tax: 2508,
+    price_include_tax: 2462,
     sauce: {
       bg: palette.whitesauce,
       fg: 'black',
@@ -220,7 +220,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ingredients: ['プルコギソース', 'チーズ', '玉ねぎ', '牛肉', 'にら', 'マヨネーズ'],
     name: '韓国プルコギピザ',
     price: 2480,
-    price_include_tax: 2728,
+    price_include_tax: 2678,
     sauce: {
       bg: palette.purukogi,
       fg: 'black',
@@ -243,7 +243,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ],
     name: 'じゅわっとジューシー豚トロBBQピザ',
     price: 2280,
-    price_include_tax: 2508,
+    price_include_tax: 2462,
     sauce: {
       bg: palette.bbq,
       fg: 'white',
@@ -268,7 +268,7 @@ const pizzaMenu: Array<PizzaMenu> = [
     ],
     name: '九条ネギの塩シーフードBBQピザ',
     price: 2280,
-    price_include_tax: 2508,
+    price_include_tax: 2462,
     sauce: {
       bg: palette.shio,
       fg: 'black',
